@@ -28,6 +28,17 @@ img {
     justify-content: center;
 }
 
+.titolo-sez{
+    font-size:40px;
+    font-family: sans-serif;
+    padding: 15px;
+}
+
+.testo-sez{
+    font-family: sans-serif;
+    padding: 15px;
+}
+
 /* HEAD */
 header {
     padding: 15px;
@@ -125,13 +136,13 @@ header .link-head{
     justify-content: center;
 }
 
-.bottoni-sez2 .scarica{
+.scarica{
     color: black;
     background-color: white;
     border-radius: 25px;
 }
 
-.bottoni-sez2 .apri{
+.apri{
     color: white;
     background-color: black;
     border-radius: 25px;
@@ -150,11 +161,6 @@ header .link-head{
     align-items: center;
 }
 
-.sez3 h2{
-    font-size: 40px;
-    padding: 10px;
-    font-family: sans-serif;
-}
 
 .sez3-cont:first-child {
     width: 70%;
@@ -175,60 +181,95 @@ header .link-head{
 
 /* Sezione 4 */
 .sez4 {
-    background-color: royalblue;
-    padding: 50px;
+    background-color: hsl(0deg 0% 96.47%);
+    /* background-color: royalblue;
+    padding: 50px; */
 }
 
+.sez4 .container{
+    align-items: center;
+}
+
+
+
 .sez4-cont {
-    background-color: burlywood;
     width: 50%;
     /* debug */
+    /* background-color: burlywood;
     min-height: 200px;
-    border: 1px solid rgb(46, 173, 0);
+    border: 1px solid rgb(46, 173, 0); */
 }
 
 .sez4-cont2 {
-    background-color: lawngreen;
     width: 70%;
     /* debug */
+    /* background-color: lawngreen;
     min-height: 200px;
-    border: 1px solid rgb(46, 173, 0);
+    border: 1px solid rgb(46, 173, 0); */
 }
 
 
 /* Sezione 5 */
 .sez5 {
-    background-color: azure;
+    background-color: white;
     padding: 30px;
+}
+
+.sez5 .container{
+    align-items: center;
 }
 
 .sez5-cont:nth-child(1) {
     width: 70%;
-    background-color: powderblue;
     /* debug */
-    min-height: 200px;
-    border: 1px solid rgb(104, 220, 62);
+    /* min-height: 200px;
+    background-color: powderblue;
+    border: 1px solid rgb(104, 220, 62); */
 }
 
 .sez5-cont:nth-child(2) {
-    background-color: saddlebrown;
     width: 30%;
     /* debug */
+    /* background-color: saddlebrown;
     min-height: 200px;
-    border: 1px solid rgb(227, 255, 18);
+    border: 1px solid rgb(227, 255, 18); */
 }
 
 /* Sezione 6 */
 .sez6 {
-    background-color: teal;
-    padding: 50px;
+    background-color: hsl(0deg 0% 96.47%);
+    padding: 100px;
+    /* debug */
+    /* background-color: teal;
+    padding: 50px; */
 }
 
 .sez6-cont {
-    background-color: palegoldenrod;
+    text-align: center;
     /* debug */
+    /* background-color: palegoldenrod;
     min-height: 200px;
-    border: 1px solid rgb(216, 28, 131);
+    border: 1px solid rgb(216, 28, 131); */
+}
+
+.avvent .stars{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    padding: 20px;
+    margin: 25px;
+}
+
+.avvent strong{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.down-blue{
+    font-size: 24px;
+    background-color: #255ee9;
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
 }
 
 /* Sezione 7 */
