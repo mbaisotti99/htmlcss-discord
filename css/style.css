@@ -88,39 +88,88 @@ header .link-head{
 
 /* Sezione 2 */
 .sez2 {
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    padding-top: 110px;
+    /* debug
     background-color: rgba(44, 44, 226, 0.371);
-    padding: 30px 0;
+    padding: 30px 0; */
 }
 
 .sez2-cont {
-    background-color: lightgreen;
+    text-align: center;
+    padding: 50px;
+    color: white;
+    font-family: sans-serif;
+    /* debug 
     margin: 50px;
-    /* debug */
-    min-height: 200px;
-    border: 1px solid blue;
+    background-color: lightgreen;
+     min-height: 200px;
+    border: 1px solid blue; */
+}
+
+.sez2-cont p{
+    margin: 50px;
+}
+
+.bottoni-sez2 a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    display: inline-block;
+    margin: 15px;
+}
+
+.bottoni-sez2{
+    display: flex;
+    justify-content: center;
+}
+
+.bottoni-sez2 .scarica{
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.bottoni-sez2 .apri{
+    color: white;
+    background-color: black;
+    border-radius: 25px;
 }
 
 
 /* Sezione 3  */
 .sez3 {
-    background-color: bisque;
-    padding: 50px;
+    background-color: white;
+    /* debug */
+    /* background-color: bisque;
+    padding: 50px; */
+}
+
+.sez3 .container{
+    align-items: center;
+}
+
+.sez3 h2{
+    font-size: 40px;
+    padding: 10px;
+    font-family: sans-serif;
 }
 
 .sez3-cont:first-child {
-    background-color: aquamarine;
     width: 70%;
     /* debug */
-    min-height: 200px;
-    border: 1px solid orange;
+    /* min-height: 200px;
+    background-color: aquamarine;
+    border: 1px solid orange; */
 }
 
 .sez3-cont2 {
     width: 30%;
-    background-color: blueviolet;
     /* debug */
-    min-height: 200px;
-    border: 1px solid rgb(46, 173, 0);
+    /* min-height: 200px;
+    background-color: blueviolet;
+    border: 1px solid rgb(46, 173, 0); */
 }
 
 
