@@ -10,6 +10,10 @@ img {
 }
 
 /* COMMON */
+:root{
+    --main-bg-color:#255ee9;
+}
+
 .container {
     width: 80%;
     max-width: 1100px;
@@ -20,16 +24,48 @@ img {
     display: flex;
 }
 
+.just-center{
+    justify-content: center;
+}
+
 /* HEAD */
 header {
-    background-color: rgb(108, 161, 208);
     padding: 15px;
+    background-color: var(--main-bg-color);
+    /* debug
+    background-color: rgb(108, 161, 208); */
 
 }
 
-header .container {
-    background-color: yellowgreen;
+header .link-head{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
 }
+
+.link-head a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+ header .container {
+    align-items: center;
+     /* Debug 
+     background-color: yellowgreen;  */
+} 
+
+.accedi a{
+    color: black;
+    text-decoration: none;
+}
+
+.accedi{
+    background-color: white;
+    padding: 10px;
+    border-radius:20px;
+}
+
 
 .container .headsect {
     margin: 10px;
