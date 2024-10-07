@@ -7,11 +7,14 @@
 
 img {
     max-width: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
 }
 
 /* COMMON */
-:root{
-    --main-bg-color:#255ee9;
+:root {
+    --main-bg-color: #255ee9;
 }
 
 .container {
@@ -24,17 +27,17 @@ img {
     display: flex;
 }
 
-.just-center{
+.just-center {
     justify-content: center;
 }
 
-.titolo-sez{
-    font-size:40px;
+.titolo-sez {
+    font-size: 40px;
     font-family: sans-serif;
     padding: 15px;
 }
 
-.testo-sez{
+.testo-sez {
     font-family: sans-serif;
     padding: 15px;
 }
@@ -48,33 +51,33 @@ header {
 
 }
 
-header .link-head{
+header .link-head {
     display: flex;
     list-style: none;
     justify-content: space-around;
 }
 
-.link-head a{
+.link-head a {
     text-decoration: none;
     color: white;
     font-family: sans-serif;
 }
 
- header .container {
+header .container {
     align-items: center;
-     /* Debug 
+    /* Debug 
      background-color: yellowgreen;  */
-} 
+}
 
-.accedi a{
+.accedi a {
     color: black;
     text-decoration: none;
 }
 
-.accedi{
+.accedi {
     background-color: white;
     padding: 10px;
-    border-radius:20px;
+    border-radius: 20px;
 }
 
 
@@ -82,10 +85,10 @@ header .link-head{
     margin: 10px;
 }
 
-.headsect a:hover {
+/* .headsect a:hover {
     color: blue;
     font-size: larger;
-}
+} */
 
 .headsect:nth-child(1),
 .headsect:nth-child(3) {
@@ -119,11 +122,11 @@ header .link-head{
     border: 1px solid blue; */
 }
 
-.sez2-cont p{
+.sez2-cont p {
     margin: 50px;
 }
 
-.bottoni-sez2 a{
+.bottoni-sez2 a {
     text-decoration: none;
     font-size: 20px;
     padding: 15px;
@@ -131,18 +134,18 @@ header .link-head{
     margin: 15px;
 }
 
-.bottoni-sez2{
+.bottoni-sez2 {
     display: flex;
     justify-content: center;
 }
 
-.scarica{
+.scarica {
     color: black;
     background-color: white;
     border-radius: 25px;
 }
 
-.apri{
+.apri {
     color: white;
     background-color: black;
     border-radius: 25px;
@@ -157,7 +160,7 @@ header .link-head{
     padding: 50px; */
 }
 
-.sez3 .container{
+.sez3 .container {
     align-items: center;
 }
 
@@ -186,7 +189,7 @@ header .link-head{
     padding: 50px; */
 }
 
-.sez4 .container{
+.sez4 .container {
     align-items: center;
 }
 
@@ -215,7 +218,7 @@ header .link-head{
     padding: 30px;
 }
 
-.sez5 .container{
+.sez5 .container {
     align-items: center;
 }
 
@@ -252,19 +255,19 @@ header .link-head{
     border: 1px solid rgb(216, 28, 131); */
 }
 
-.avvent .stars{
+.avvent .stars {
     background-image: url(../img/stars.svg);
     background-size: contain;
     padding: 20px;
     margin: 25px;
 }
 
-.avvent strong{
+.avvent strong {
     font-size: 30px;
     font-family: sans-serif;
 }
 
-.down-blue{
+.down-blue {
     font-size: 24px;
     background-color: #255ee9;
     padding: 10px;
@@ -281,18 +284,17 @@ header .link-head{
     /* padding: 50px; */
 }
 
-.sez7 .container{
+.sez7 .container {
     align-items: top;
 }
 
-.sez7-cont{
+.sez7-cont {
     padding: 10px;
     font-size: 20px;
 
 }
 
-.social
-{
+.social {
     font-size: 30px;
     color: white;
     padding: 15px;
@@ -300,32 +302,33 @@ header .link-head{
 
 /* .sez7-cont:first-child {
     /* debug */
-    /* background-color: salmon;
+/* background-color: salmon;
     min-height: 200px;
     border: 1px solid rgb(20, 0, 240); 
 } */
 
-.tit-foot{
+.tit-foot {
     font-size: 30px;
     color: #255ee9;
     padding: 5px;
 }
 
-.sez7 .colonna{
+.sez7 .colonna {
     list-style: none;
 }
 
-.colonna a{
+.colonna a {
     text-decoration: none;
     color: white;
     font-size: 16px;
 }
-.colonna li{
+
+.colonna li {
     padding: 10px;
 }
 
 
-.endlist-title{
+.endlist-title {
     font-size: 25px;
     color: #255ee9;
 }
@@ -341,25 +344,37 @@ header .link-head{
 }
 
 /* Footer */
-footer{
+footer {
     background-color: rgb(23, 33, 33);
     border-top: 1px solid #255ee9;
-    
+
     /* debug */
-    padding: 50px;
+    /* padding: 50px; */
 }
-footer .container{
+
+footer .container {
     justify-content: space-between;
     /* debug */
     /* background-color: palegoldenrod; */
 }
 
-.foot-cont{
-    
+.foot-cont {
+
     margin: 50px 0;
-    
+
     /* debug */
     /* min-height: 200px;
     border: 1px solid rgb(6, 125, 14); */
 }
 
+/* Waves */
+.waveclass {
+    /* background-color: white; */
+    background-image: url(../img/wave.svg);
+    margin: 0;
+    min-height: 200px;
+}
+
+.trans {
+    transform: scale(-1, -1);
+}
