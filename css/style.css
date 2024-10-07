@@ -270,18 +270,19 @@ header .link-head{
     padding: 10px;
     border-radius: 25px;
     color: white;
+    text-decoration: none;
 }
 
 /* Sezione 7 */
 .sez7 {
-    
-    /* debug */
     background-color: rgb(23, 33, 33);
-    padding: 50px;
+    padding: 25px;
+    /* debug */
+    /* padding: 50px; */
 }
 
 .sez7 .container{
-    align-items: center;
+    align-items: top;
 }
 
 .sez7-cont{
@@ -297,14 +298,14 @@ header .link-head{
     padding: 15px;
 }
 
-.sez7-cont:first-child {
+/* .sez7-cont:first-child {
     /* debug */
-    background-color: salmon;
+    /* background-color: salmon;
     min-height: 200px;
-    border: 1px solid rgb(20, 0, 240);
-}
+    border: 1px solid rgb(20, 0, 240); 
+} */
 
-.sez7 h3{
+.tit-foot{
     font-size: 30px;
     color: #255ee9;
     padding: 5px;
@@ -319,6 +320,9 @@ header .link-head{
     color: white;
     font-size: 16px;
 }
+.colonna li{
+    padding: 10px;
+}
 
 
 .endlist-title{
@@ -331,39 +335,31 @@ header .link-head{
 .sez7-cont:nth-child(1n+2) {
     width: 20%;
     /* debug */
-    background-color: aqua;
+    /* background-color: aqua;
     min-height: 200px;
-    border: 1px solid rgb(255, 60, 16);
+    border: 1px solid rgb(255, 60, 16); */
 }
 
 /* Footer */
 footer{
+    background-color: rgb(23, 33, 33);
+    border-top: 1px solid #255ee9;
+    
+    /* debug */
     padding: 50px;
-    background-color: rgb(33, 31, 31);
-    border-top: 2px solid white;
 }
 footer .container{
-    background-color: palegoldenrod;
-    align-content: space-between;
-}
-
-.foot-cont:first-child{
-    flex-basis: 200px;
-    margin: 50px 0;
+    justify-content: space-between;
     /* debug */
-    min-height: 200px;
-    border: 1px solid rgb(6, 125, 14);
+    /* background-color: palegoldenrod; */
 }
 
-.foot-cont:nth-child(2){
-    width: 80%;
-}
-
-.foot-cont:nth-child(3){
+.foot-cont{
+    
     margin: 50px 0;
     
     /* debug */
-    flex-basis: 200px;
-    min-height: 200px;
-    border: 1px solid rgb(123, 0, 255);
+    /* min-height: 200px;
+    border: 1px solid rgb(6, 125, 14); */
 }
+
